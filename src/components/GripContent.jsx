@@ -26,7 +26,7 @@ function GripContent() {
   }, []);
 
   return (
-    <div className="grid grid-cols-4 gap-4 p-8">
+    <div className="md:grid md:grid-cols-4 gap-4 p-8 sm:flex sm:flex-col ">
       {state.characters?.map((character) => {
         return (
           <div
