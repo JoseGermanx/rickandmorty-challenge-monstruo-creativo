@@ -12,13 +12,6 @@ function SearchBar() {
     setSearchInput(e.target.value);
   };
 
-  const handleEnter = (e) => {
-    e.preventDefault();
-    if (e.key === "Enter") {
-        return;
-    }
-    };
-
   const searchByNameHandle = (e) => {
     e.preventDefault();
     const name = searchInput;
