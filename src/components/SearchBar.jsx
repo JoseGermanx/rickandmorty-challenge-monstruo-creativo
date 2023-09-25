@@ -8,8 +8,16 @@ function SearchBar() {
   const [searchInput, setSearchInput] = useState("");
 
   const inputHandle = (e) => {
+    e.preventDefault();
     setSearchInput(e.target.value);
   };
+
+  const handleEnter = (e) => {
+    e.preventDefault();
+    if (e.key === "Enter") {
+        return;
+    }
+    };
 
   const searchByNameHandle = (e) => {
     e.preventDefault();
@@ -42,7 +50,7 @@ function SearchBar() {
     <>
       <div className="flex justify-center mt-6 mb-6">
         <div className="w-1/2">
-          <form action="">
+          <form>
             <div className="flex items-center border-b-2 border-teal-500 py-2">
               <input
                 type="search"
@@ -50,7 +58,6 @@ function SearchBar() {
                 placeholder="Buscar personaje por nombre"
                 className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
                 onChange={inputHandle}
-                width={10}
               />
               <button
                 className="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded"
