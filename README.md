@@ -1,8 +1,10 @@
-# React + Vite
+# Rick And Morty Challenge - React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación para challenge Monstruo Creativo
 
-Currently, two official plugins are available:
+Instrucciones para instalar e iniciar en local:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Descargar repositorio o clonar. En la carpeta raíz utilizar en comando npm install para instalar los paquetes.
+- Utilizar en comendo npm run dev para levantar el proyecto en local. Cuando se levante correctamente acceder desde el navegador desde la ruta http://localhost:5173/
+
+Se requiere node 18 en la máquina para correr el proyecto. Desarrollado con React en Vite.
