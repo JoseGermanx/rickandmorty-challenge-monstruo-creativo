@@ -55,7 +55,7 @@ function CharacterDetail() {
                 <img
                   src={character.image}
                   alt=""
-                  className="rounded-full h-20 w-20 mx-auto"
+                  className="rounded-full h-50 w-50 mx-auto"
                 />
               </div>
               <div className="text-center">
