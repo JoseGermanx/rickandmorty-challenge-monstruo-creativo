@@ -23,7 +23,7 @@ function CharacterCard({ id, image, name, species }) {
         <button className="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded">
           <Link to={`/character-detail/${id}`}
           id={id}
-          > Ver detalles </Link>
+          > Ver + detalles </Link>
         </button>
         </div>
       </div>
